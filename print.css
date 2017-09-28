@@ -1,0 +1,14 @@
+body {
+  font-size: 10%;
+  width: 7.5in;
+  max-width: none;
+  }
+
+figure.artwork img {
+  max-width: 40%;
+  }
+
+h2,
+section.author {
+  display: none;
+  }
