@@ -1,0 +1,162 @@
+/*---comment---*/
+/*-----flexible images------*/
+/* img is a selector or a type sector (a type of element) */
+/* max width is a property, and defines the maximum width of an object; 100% is a value */
+
+html {
+    font-size: 100%;
+    line-height: 1.15; /*---line height is unitless---*/
+  }
+
+
+/*----sections----*/
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+main {
+  margin: 3em 5% 0 5%;
+  }
+
+header {
+    font-size: 100%;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+body {
+    width: 90%; /*--this is the piece of code that will help center your type--*/
+    max-width: 60em; /*--960px--*/
+    margin: 1em auto; /*-- 1em = 16px --*/
+  }
+
+footer {
+	font-size: .85em;
+	margin: 6em 0em 0em 6em;
+	}
+
+/* --- figures --- */
+/* --- grayscale (black to white) 0123456789abcdf ---*/
+figure {
+    margin-bottom: 2em;
+  }
+
+figcaption.credit {
+font-size: .875em;
+  text-align: right;
+  }
+
+figure.headshot {
+    float: left;
+    width: 7.5em;
+    height: 7.5em;
+    border: .5em solid #eee;
+    border-radius: 50%;
+    margin: .25em 1em .75em 0;
+    overflow: hidden;
+  }
+
+  /*-- Defendant Selector --*/
+figure.headshot img {
+     max-width: 110%;
+     margin-left: -5%;
+  }
+
+/* --- typography --- */
+
+a {
+  color: #2455c3;
+  text-decoration: none;
+  font-weight: bold;
+  }
+
+  /*hover is the language of a link, and should be used only on a link*/
+a:hover {
+  text-decoration: underline;
+  }
+
+h1 {
+    font-size: 2.25em;  /*--- allows for flexibility, when resizing web browsers, most browsers are set in 16 px ---*/
+    line-height: 1.667;
+    margin-top: 0;
+    margin-bottom: .375em;
+  }
+
+p {
+    font: 1em/1.667 Georgia, serif;
+    /*font-size: 1.125em;*/
+    /*line-height: 1.667;*/
+    /*font-family: Georgia, serif;*/
+    margin: 0 0 1.5em 0;
+    /*margin-bottom: 1.5em;*/
+  }
+
+p.byline {
+    font-family: sans-serif;
+    font-size: .875em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+p:first-child {
+    font-size: 1.25em;
+    border: 1px dashed #000; /*put boxes around things to understand what is happening */
+    margin-right: -5%;
+    margin-left: -5%;
+  }
+
+p.full {
+  font-size: 1em;
+	max-width: 45em;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 1em;
+	}
+
+section.author h3 {
+  color: red;
+  font: 1.125/1.333 sans-serif;
+  margin: 0 0 0 8em;
+  }
+
+.margin-offset {
+  margin-right: 10%;
+  margin-left: 10%;
+  }
+
+section.author p{
+  font: .875em/1.714;
+  max-width: 45em;
+	margin-left: 9.5em;
+	margin-right: 7.5em;
+  margin-top: .5em;
+  }
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: .75em;
+  }
+
+h3 {
+  font-family: sans-serif;
+  }
+
+
+/* --- wire screens and break points --- */
+/* --- media query ---*/
+/* --- this is essentially css within css ---*/
+
+@media (min-width: 48em) {
+  div.bio {
+  margin-left: 9.375em;
+  }
+
+  figure.headshot {
+  margin-right: 0;
+  }
+
+}
