@@ -1,3 +1,7 @@
+# Work in Progress Repo
+https://mainetti-vincent.github.io/ebb-flow/
+# Best Practices
+https://mainetti-vincent.github.io/best-practices/
 # Summary 
 - Draft
 - Revision 1 - Traditionally designers used HTML to create web pages, but now HTML is used for the frame work of a page and CSS to suggest the appearance. By doing this it allows for the web browsers to read, and display the web pages even if there are elements or aspects that are not recognized. The advantage in designing web pages this way is increased functionality across different browsers, operating systems, and devices. Not everyone has optimal vision, and some may need to increase font size to read web pages. Some may be color blind, and need the emphasized words to read as emphasized without with use of color. A good way to remember this is that function is more important than aesthetic.
