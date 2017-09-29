@@ -108,7 +108,6 @@ p.byline {
 }
 p:first-child {
 	font-size: 1.25em;
-	border: 1px dashed #000;
 	/*put boxes around things to understand what is happening */
 	margin-right: -5%;
 	margin-left: -5%;
