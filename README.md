@@ -1,3 +1,11 @@
+- [Work in Progress](#work-in-progress-repo)
+- [Best Practices](#best-practices)
+- [Summary](#summary)
+- [Images](#images)
+- [About the Author](#about-the-author)
+- [Author Images](#author-images)
+- [Final Product](#final-product)
+
 # Work in Progress Repo
 https://mainetti-vincent.github.io/ebb-flow/
 # Best Practices
@@ -25,7 +33,7 @@ Throughout the article, Allsopp give a few tips to the reader on what can be don
 - Revision - 
 At a young age, I discovered a strong interest in papers, pencils and pens. This interest quickly developed into a love for the arts. I spent most of my young life drawing as much as I could, and learned that art provided me a level of enjoyment I couldn’t find elsewhere. As I grew older my interests migrated towards technology, and I found myself spending time navigating this new online world. Eventually I found myself with an Associate’s degree in art studies, it was at that point that I realized that I wanted to do more than just study the arts. I wanted to create using the technology that enticed me as a child. Graphic design was the perfect combination of the arts and technology, and in 2015 I began my journey towards becoming a designer. I enrolled at my local community college with the goal of a second Associate’s degree. I graduated in 2017 with several academic awards, and am now pursuing a Bachelor’s of Fine Arts at Montserrat College of Art.
 - - -
-## Images
+## Author Images
 - Version 1 ![Version 1](img/vincent-mainetti.png)
 - Version 2 ![Version 2](img/vincent-mainetti-2.png)
 - Version 3 ![Version 3](img/headshot.png)
