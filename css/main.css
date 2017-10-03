@@ -61,7 +61,7 @@ figure.headshot {
 	height: 7.5em;
 	border: .5em solid #eee;
 	border-radius: 50%;
-	margin: .25em 1em .75em 0;
+	margin: .25em 1em .75em 2em;
 	overflow: hidden;
 }
 
@@ -131,7 +131,7 @@ section.author h3 {
 section.author p {
 	font: .875em/1.714;
 	max-width: 45em;
-	margin-left: 9.5em;
+	margin-left: 2em;
 	margin-right: 7.5em;
 	margin-top: .5em;
 }
@@ -154,9 +154,10 @@ h3 {
 
 @media (min-width: 48em) {
 	div.bio {
-		margin-left: 9.375em;
+		margin-left: 1.375em;
 	}
 	figure.headshot {
 		margin-right: 0;
 	}
 }
+
